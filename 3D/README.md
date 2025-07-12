@@ -68,3 +68,11 @@ For further instructions, refer to the [nnFormer](https://github.com/282857341/n
     ```bash
     python test_pancreas.py
     ```
+
+## Usage as Module
+To integrate the 3D D-LKA Net in your own code, you can import the `DLKANet3D` module:
+```python
+from dlka_net_3d import DLKANet3D
+model = DLKANet3D(in_channels=1, out_channels=14)
+```
+
